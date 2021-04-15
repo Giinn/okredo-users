@@ -10,8 +10,12 @@
 	justify-content: space-evenly;
 	padding: 10px;
 
+	&-form {
+		width: fit-content;
+	}
+
 	&-users {
-		width: 500px;
+		width: fit-content;
 	}
 }
 
