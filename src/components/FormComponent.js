@@ -69,7 +69,7 @@ export const FormComponent = ({ onSubmit, selectedUser }) => {
 					<p>{errors.address?.message}</p>
 					<PlacesAutocomplete value={address} onChange={setAddress} onSelect={handleAddressChange}>
 						{({getInputProps, suggestions, getSuggestionItemProps, loading}) => 
-						<div>
+						<>
 							<input {...getInputProps({placeholder: "Enter address..."})} />
 
 							<div>
@@ -86,7 +86,7 @@ export const FormComponent = ({ onSubmit, selectedUser }) => {
 											</div>
 								})}
 							</div>
-						</div>}
+						</>}
 					</PlacesAutocomplete>
 
 					<input type="submit" id="submit" />
