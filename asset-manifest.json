@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/okredo-users/static/css/main.edbd33fe.chunk.css",
-    "main.js": "/okredo-users/static/js/main.68ee8283.chunk.js",
-    "main.js.map": "/okredo-users/static/js/main.68ee8283.chunk.js.map",
+    "main.js": "/okredo-users/static/js/main.e41bc1f2.chunk.js",
+    "main.js.map": "/okredo-users/static/js/main.e41bc1f2.chunk.js.map",
     "runtime-main.js": "/okredo-users/static/js/runtime-main.6a7650fa.js",
     "runtime-main.js.map": "/okredo-users/static/js/runtime-main.6a7650fa.js.map",
-    "static/js/2.9e2fa965.chunk.js": "/okredo-users/static/js/2.9e2fa965.chunk.js",
-    "static/js/2.9e2fa965.chunk.js.map": "/okredo-users/static/js/2.9e2fa965.chunk.js.map",
+    "static/js/2.db0b2768.chunk.js": "/okredo-users/static/js/2.db0b2768.chunk.js",
+    "static/js/2.db0b2768.chunk.js.map": "/okredo-users/static/js/2.db0b2768.chunk.js.map",
     "static/js/3.87ea0e8b.chunk.js": "/okredo-users/static/js/3.87ea0e8b.chunk.js",
     "static/js/3.87ea0e8b.chunk.js.map": "/okredo-users/static/js/3.87ea0e8b.chunk.js.map",
     "index.html": "/okredo-users/index.html",
     "static/css/main.edbd33fe.chunk.css.map": "/okredo-users/static/css/main.edbd33fe.chunk.css.map",
-    "static/js/2.9e2fa965.chunk.js.LICENSE.txt": "/okredo-users/static/js/2.9e2fa965.chunk.js.LICENSE.txt"
+    "static/js/2.db0b2768.chunk.js.LICENSE.txt": "/okredo-users/static/js/2.db0b2768.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6a7650fa.js",
-    "static/js/2.9e2fa965.chunk.js",
+    "static/js/2.db0b2768.chunk.js",
     "static/css/main.edbd33fe.chunk.css",
-    "static/js/main.68ee8283.chunk.js"
+    "static/js/main.e41bc1f2.chunk.js"
   ]
 }
