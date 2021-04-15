@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 10px;
+
+	&-users {
+		width: 500px;
+	}
+}
+
+@import './form-component';
+@import './users-table';
+@import './modal-component';

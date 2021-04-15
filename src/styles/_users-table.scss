@@ -1,0 +1,16 @@
+.users {
+	text-align: center;
+	border-collapse: collapse;
+	border: 3px solid #ddd;
+	width: 100%;
+
+	td, th {
+		border: 1px solid #ddd;
+		padding: 8px;
+	}
+
+	tr:hover {
+		background-color: #ddd;
+		cursor: pointer;
+	}
+}
