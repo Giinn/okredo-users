@@ -43,6 +43,7 @@ export const FormComponent = ({ onSubmit, selectedUser }) => {
 				<form onSubmit={handleSubmit(beforeSubmit)}>
 
 					<p>{errors.userName?.message}</p>
+					<label>User's name</label>
 					<input 
 						type="text" 
 						name="userName" 
@@ -51,6 +52,7 @@ export const FormComponent = ({ onSubmit, selectedUser }) => {
 					/>
 
 					<p>{errors.surname?.message}</p>
+					<label>User's surname</label>
 					<input 
 						type="text" 
 						name="surname" 
@@ -59,6 +61,7 @@ export const FormComponent = ({ onSubmit, selectedUser }) => {
 					/>
 
 					<p>{errors.email?.message}</p>
+					<label>User's email</label>
 					<input 
 						type="text" 
 						name="email" 
@@ -67,6 +70,7 @@ export const FormComponent = ({ onSubmit, selectedUser }) => {
 					/>
 
 					<p>{errors.address?.message}</p>
+					<label>User's address</label>
 					<PlacesAutocomplete value={address} onChange={setAddress} onSelect={handleAddressChange}>
 						{({getInputProps, suggestions, getSuggestionItemProps, loading}) => 
 						<>
